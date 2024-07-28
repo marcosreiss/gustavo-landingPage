@@ -1,3 +1,69 @@
+@import url(./cabinet-grotesk.css);
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-GrandHeavy.otf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-GrandLight.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-Narrow.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-TextBold.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-ThinItalic.otf');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-Tight.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-WideBlackItalic.otf');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Agrandir';
+    src: url('../fonts/Agrandir/Agrandir-WideLight.otf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -17,10 +83,9 @@
 }
 
 .logo{
-    width: 380px;
-    margin-top: 50px;
+    width: 300px;
     position: absolute;
-    top: -100px;
+    top: -50px;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -29,11 +94,11 @@
 
 @keyframes descend {
     0% {
-        top: -100px; /* Posição inicial */
+        top: -50px; /* Posição inicial */
         opacity: 0;  /* Invisível */
     }
     100% {
-        top: 0; /* Posição final dentro do pai */
+        top: 60px; /* Posição final dentro do pai */
         opacity: 1; /* Visível */
     }
 }
@@ -46,9 +111,9 @@
 
     color: #fff;
     display: flex;
-    font-size: 20px;
+    font-size: 19px;
     /* max-width: 350px; */
-    width: 385px;
+    width: 345px;
     gap: 15px;
     margin-top: 50px;
     align-items: center;
@@ -57,8 +122,11 @@
     animation: left 2s ease-out forwards;
     animation-delay: 1.5s;
 
-    font-family: sans-serif;
+    font-family: 'CabinetGrotesk-Thin';
+    /* font-weight: 300; */
 }
+
+
 
 @keyframes left {
     0% {
@@ -74,3 +142,98 @@
 .copy-1 > img{
     width: 45px;
 }
+
+.copy-2{
+    position: absolute;
+    top: 300px;
+    left: 5%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    color: #fff;
+    display: flex;
+    font-size: 19px;
+    /* max-width: 350px; */
+    width: 345px;
+    gap: 15px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: justify;
+
+    animation: left 2s ease-out forwards;
+    animation-delay: 1.5s;
+
+    /* font-family: 'Agrandir'; */
+    
+}
+.copy-2 > img{
+    width: 45px;
+}
+
+.copy-3{
+    position: absolute;
+    top: 450px;
+    left: 5%;
+    transform: translateX(-50%);
+    opacity: 0;
+
+    color: #fff;
+    display: flex;
+    font-size: 19px;
+    /* max-width: 350px; */
+    width: 345px;
+    gap: 15px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: justify;
+
+    animation: left 2s ease-out forwards;
+    animation-delay: 1.5s;
+
+    font-family: sans-serif;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+
+    .logo{
+        width: 500px;
+        top: -50px;
+    }
+
+    .copy-1{
+        top: 230px;
+        font-size: 25px;
+        width: 450px;
+        gap: 20px;
+    }
+  }
+  
+  /* Desktops */
+  @media (min-width: 1024px) {
+    .background{
+        background-image: url('../assets/background-img.png');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 602.9%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .logo{
+        width: 600px;
+        top: -50px;
+    }
+
+    .copy-1{
+        top: 260px;
+        font-size: 29px;
+        width: 515px;
+        gap: 20px;
+    }
+  }
