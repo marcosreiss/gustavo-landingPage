@@ -28,6 +28,10 @@ function App() {
           Para isso, desenvolvemos uma metodologia capaz de posicionar sua marca no mercado, mostrar o seu produto/serviço de forma profissional e captar clientes em grande escala.
       </p>
     </div>
+    <section>
+      <img src='src\assets\pilares.png' className='pilares' />
+      
+    </section>
     </>
   )
 }
