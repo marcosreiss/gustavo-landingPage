@@ -1,0 +1,49 @@
+.pilar3{
+    position: relative;
+}
+
+.pilar3 > .title{
+    position: absolute;
+    top: 550px;
+    width: 220px;
+}
+
+.pilar3-p1{
+    position: absolute;
+    top: 620px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pilar3-p2{
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.trafego{
+    position: absolute;
+    width: 160px;
+}
+
+.trafego.trafego-1{
+    top: 800px;
+    left: 40px;
+}
+.trafego.trafego-2{
+    top: 880px;
+    left: 60px;
+    opacity: .8;
+}
+
+.trafego.trafego-3{
+    top: 800px;
+    left: 210px;
+}
+
+.trafego.trafego-4{
+    top: 880px;
+    left: 230px;
+    opacity: .8;
+}
