@@ -1,0 +1,44 @@
+.offer > .p1{
+    position: absolute;
+    top: 2150px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.offer > .p1 > img{
+    width: 40px;
+}
+
+.offer > .p2{
+    position: absolute;
+    top: 2265px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.offer > .p2 > p{
+    width: 280px;
+    font-size: 15px;
+    display: block;
+    border: 1px solid #fff;
+    padding: 9px;
+    border-radius: 20px;
+}
+
+.offer > .p2 > img{
+    width: 30px;
+}
+
+.offer-img{
+    position: absolute;
+    top: 2360px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+}

@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Offer from './components/Offer'
 import Pilar1 from './components/Pilar1'
 import Pilar2 from './components/Pilar2'
 import Pilar3 from './components/Pilar3'
@@ -18,6 +19,8 @@ function App() {
     <Pilar2 />
 
     <Pilar3 />
+
+    <Offer />
     </>
   )
 }
