@@ -5,9 +5,9 @@ export default function Header() {
 
     return (
         <header>
-            <img className='logo' src='./src/assets/plano.png' alt='logo gustavo castroide' />
+            <img className='logo' src='src\assets\header\plano.png' alt='logo gustavo castroide' />
             <div className='copy-1'>
-                <img src='./src/assets/SETA.png' />
+                <img src='src\assets\header\seta-esquerda.png' />
                 <p>
                     Eu e minha equipe já atendemos mais de  <b>37 empresas em São Luís. </b>
                     Posicionando suas marcas e vendendo pelo Instagram.
@@ -19,7 +19,7 @@ export default function Header() {
                     Nossa prioridade é fazer você ter retorno <b>(clientes comprando seu
                         produto/serviço)</b> antes que nossos primeiros 30 dias de trabalho acabem
                 </p>
-                <img src='./src/assets/seta-direita.png' />
+                <img src='src\assets\header\seta-direita.png' />
             </div>
 
             <div className='copy-3'>
