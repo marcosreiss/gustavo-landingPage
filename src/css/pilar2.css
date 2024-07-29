@@ -1,0 +1,60 @@
+@import url(./cabinet-grotesk.css);
+
+.pilar2{
+    position: relative;
+    margin-top:  1150px;
+
+}
+
+.title2{
+    position: absolute;
+    left: 20px;
+    width: 220px;
+}
+
+.copy-pilar2{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: #fff;
+    font-size: 15px;
+}
+.copy-pilar2.p1{
+    top: 70px;
+}
+.copy-pilar2.p2{
+    top: 150px;
+}
+
+.frame{
+    width: 330px;
+    display: flex;
+}
+
+.feed{
+    position: absolute;
+    width: 200px;
+}
+
+.feed.feed-1{
+    top: 160px;
+
+}
+.feed.feed-2{
+    top: 240px;
+    left: 65px;
+}
+.feed.feed-3{
+    top: 153px;
+
+    left: 155px;
+}
+.feed.feed-4{
+    top: 248px;
+    left: 239px;
+}
+
+.copy-pilar2.p3{
+    top: 430px;
+}

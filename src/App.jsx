@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Pilar1 from './components/Pilar1'
+import Pilar2 from './components/Pilar2'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
     <img src='src\assets\pilares.png' className='pilares' />
 
     <Pilar1 />
+
+    <Pilar2 />
     </>
   )
 }

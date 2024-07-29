@@ -111,8 +111,6 @@
 
     color: #fff;
     display: flex;
-    /* font-size: 19px; */
-    /* max-width: 350px; */
     width: 345px;
     gap: 15px;
     align-items: center;
@@ -203,7 +201,7 @@
 @media (min-width: 768px) and (max-width: 1023px) {
     
 
-    .logo{
+    /* .logo{
         width: 500px;
         top: -50px;
     }
@@ -213,12 +211,12 @@
         font-size: 25px;
         width: 450px;
         gap: 20px;
-    }
+    } */
   }
   
   /* Desktops */
   @media (min-width: 1024px) {
-    .background{
+    /* .background{
         background-image: url('../assets/background-img.png');
         width: 100%;
         background-repeat: no-repeat;
@@ -240,5 +238,5 @@
         font-size: 29px;
         width: 515px;
         gap: 20px;
-    }
+    } */
   }
