@@ -29,12 +29,12 @@
 
 .frame{
     width: 330px;
-    display: flex;
 }
 
 .feed{
     position: absolute;
-    width: 200px;
+    width: 190px;
+    overflow: hidden;
 }
 
 .feed.feed-1{
@@ -47,12 +47,11 @@
 }
 .feed.feed-3{
     top: 153px;
-
-    left: 155px;
+    left: 150px;
 }
 .feed.feed-4{
-    top: 248px;
-    left: 239px;
+    top: 243px;
+    left: 225px;
 }
 
 .copy-pilar2.p3{
