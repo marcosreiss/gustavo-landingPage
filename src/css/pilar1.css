@@ -28,3 +28,57 @@
     top: 650px;
     left: 20px;
 }
+
+.arroba{
+    position: absolute;
+    top: 635px;
+    left: 150px;
+
+    width: 190px;
+}
+
+.perfil{
+    position: absolute;
+    top: 695px;
+    left: 80px;
+
+    width: 290px;
+}
+
+.nome{
+    position: absolute;
+    top: 740px;
+    left: 230px;
+
+    width: 100px;
+}
+
+.biografia{
+    position: absolute;
+    top: 785px;
+    left: 200px;
+
+    width: 140px;
+}
+
+.link{
+    position: absolute;
+    top: 835px;
+    left: 120px;
+
+    width: 180px;
+}
+
+.destaques{
+    position: absolute;
+    top: 900px;
+    left: 190px;
+
+    width: 180px;
+}
+
+.phone-details4{}
+
+.phone-details5{}
+
+.phone-details6{}
