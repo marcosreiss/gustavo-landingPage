@@ -1,3 +1,6 @@
+@import url(./cabinet-grotesk.css);
+
 body{
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }

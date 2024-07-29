@@ -6,7 +6,6 @@ export default function Header() {
     return (
         <header>
             <img className='logo' src='./src/assets/plano.png' alt='logo gustavo castroide' />
-
             <div className='copy-1'>
                 <img src='./src/assets/SETA.png' />
                 <p>
